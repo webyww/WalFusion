@@ -10,7 +10,7 @@
 ### Nuscenes Detection
 | Config                                                                    | mAP        | NDS        | Latency(ms) | FPS  | Model                                                                                          | Log                                                                                            |
 
-| [**WalFusion**](configs/dal/dal-tiny.py) | 67.4 | 71.3 |-  |16.6 | [baidu](https://pan.baidu.com/s/15rmJL_SWUeQEXG9dYYl8gA?pwd=36g5) | [baidu](https://pan.baidu.com/s/15rmJL_SWUeQEXG9dYYl8gA?pwd=36g5) |
+| [**WalFusion**]() | 67.4 | 71.3 |-  |16.6 | [baidu]() | [baidu]() |
 
 
 
@@ -18,7 +18,7 @@
 
 
 
-- Evaluate with [**BEVDet-R50-CBGS**](configs/bevdet/bevdet-r50-cbgs.py) on a RTX 3090 GPU by default. We omit the postprocessing, which spends up to 5 ms with the PyTorch backend.
+- Evaluate with [**WalFusin**]() on a RTX 3090 GPU by default. We omit the postprocessing, which spends up to 5 ms with the PyTorch backend.
 
 ## Get Started
 
