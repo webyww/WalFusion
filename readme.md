@@ -3,7 +3,7 @@
 
 ![](./resources/nds-fps-dal.png)
 
-
+<img src="https://github.com/webyww/WalFusion/blob/main/WalFusion.gif" alt="show" />
 
 
 ## Main Results
