@@ -1,7 +1,5 @@
 # WalFusion
 
-
-![](./resources/nds-fps-dal.png)
 <div align="center">
     <img src="https://github.com/webyww/WalFusion/blob/main/WalFusion.gif" alt="WalFusion" width="400" />
 
