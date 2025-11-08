@@ -48,25 +48,4 @@ If this work is helpful for your research, please consider citing the following 
   journal={arXiv preprint arXiv:2311.07152},
   year={2023}
 }
-
-@article{huang2022bevpoolv2,
-  title={BEVPoolv2: A Cutting-edge Implementation of BEVDet Toward Deployment},
-  author={Huang, Junjie and Huang, Guan},
-  journal={arXiv preprint arXiv:2211.17111},
-  year={2022}
-}
-
-@article{huang2022bevdet4d,
-  title={BEVDet4D: Exploit Temporal Cues in Multi-camera 3D Object Detection},
-  author={Huang, Junjie and Huang, Guan},
-  journal={arXiv preprint arXiv:2203.17054},
-  year={2022}
-}
-
-@article{huang2021bevdet,
-  title={BEVDet: High-performance Multi-camera 3D Object Detection in Bird-Eye-View},
-  author={Huang, Junjie and Huang, Guan and Zhu, Zheng and Yun, Ye and Du, Dalong},
-  journal={arXiv preprint arXiv:2112.11790},
-  year={2021}
-}
 ```
