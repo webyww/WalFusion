@@ -1,6 +1,8 @@
 # WalFusion
 
-![WalFusion](https://github.com/webyww/WalFusion/blob/main/WalFusion.gif)
+<div align="center">
+    <img src="https://github.com/webyww/WalFusion/blob/main/WalFusion.gif" alt="WalFusion" width="1500"/>
+</div>
 
 ## Project Overview
 
