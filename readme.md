@@ -1,7 +1,7 @@
 # WalFusion
 
 <div align="center">
-    <img src="https://github.com/webyww/WalFusion/blob/main/WalFusion.gif" alt="WalFusion" width="800"/>
+    <img src="https://github.com/webyww/WalFusion/blob/main/WalFusion.gif" alt="WalFusion" width="600"/>
 </div>
 
 ## Project Overview
