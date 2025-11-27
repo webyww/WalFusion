@@ -22,7 +22,7 @@
 
 ### NuScenes Detection
 
-| Config          |mATE↓ |mASE↓ |mAOE↓ |mAVE↓| mAAE↓| mAP↑| mAP  | NDS  | Latency (ms) | FPS  | Model      | Log       |
+| Config          |mATE↓ |mASE↓ |mAOE↓ |mAVE↓| mAAE↓| mAP↑| mAP  | NDS  | Latency (ms) | FPS  | result json    | Log       |
 |-----------------|------|------|------|------|------|------|------|------|--------------|------|-----------|----------|
 | **WalFusion**   |26.7| 25.1 |25.9 |24.3 |12.7| 70.0| 67.4 | 73.5 | 47.22          | 16.6 | [baidu]() | [baidu]() |
 
