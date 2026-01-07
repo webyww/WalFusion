@@ -75,3 +75,14 @@ python tools/test.py $CONFIG $CHECKPOINT \
 # Visualize nuScenes predictions
 python tools/analysis_tools/vis.py \
   $SAVEPATH/pts_bbox/results_nusc.json
+## 📚 Acknowledgements
+
+This project is built upon several excellent open-source works.  
+We sincerely thank the authors and contributors for making their code and ideas publicly available.
+
+- [OpenMMLab](https://github.com/open-mmlab)  
+- [CenterPoint](https://github.com/tianweiy/CenterPoint)  
+- [Lift-Splat-Shoot](https://github.com/nv-tlabs/lift-splat-shoot)  
+- [BEVFusion](https://github.com/mit-han-lab/bevfusion)  
+- [BEVDet](https://github.com/mit-han-lab/bevdet)
+
