@@ -75,6 +75,9 @@ python tools/test.py $CONFIG $CHECKPOINT \
 # Visualize nuScenes predictions
 python tools/analysis_tools/vis.py \
   $SAVEPATH/pts_bbox/results_nusc.json
+
+---
+
 ## 📚 Acknowledgements
 
 This project is built upon several excellent open-source works.  
