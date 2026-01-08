@@ -52,12 +52,18 @@ WalFusion follows a **BEV-based fusion paradigm**:
 
 ## 📊 Experimental Results
 
-### 🔹 nuScenes 3D Detection Benchmark
+### 🔹 nuScenes 3D Detection test Benchmark
 
-| Method        | mATE↓ | mASE↓ | mAOE↓ | mAVE↓ | mAAE↓ | mAP↑ | NDS↑ | Latency (ms) | FPS |pth|json|
+| Method        | mATE↓ | mASE↓ | mAOE↓ | mAVE↓ | mAAE↓ | mAP↑ | NDS↑ | Latency (ms) | FPS |json|
+|--------------|------|------|------|------|------|------|------|-------------|------|------|
+| **WalFusion** | 26.7 | 25.1 | 25.9 | 24.3 | 12.7 | 70.0 | 73.5 | 47.22 | 16.6 |[Google](https://drive.google.com/file/d/1zRW_BGLjztT3T6djr5FensXHawVGe9gB/view?usp=drive_link)|
+| **WalFusion*** | 24.9 | 24.2 | 24.3 | 23.5 | 11.7 | 71.3 | 74.9 | 106.49 | 9.39 |[Google](https://drive.google.com/file/d/1vB7V_Twe5Jd5P5mhHfCw_1K8boZM-zT5/view?usp=drive_link)|
+
+### 🔹 nuScenes 3D Detection val Benchmark
+
+| Method        | mATE↓ | mASE↓ | mAOE↓ | mAVE↓ | mAAE↓ | mAP↑ | NDS↑ |pth|json|
 |--------------|------|------|------|------|------|------|------|-------------|------|------|------|
-| **WalFusion** | 26.7 | 25.1 | 25.9 | 24.3 | 12.7 | 70.0 | 73.5 | 47.22 | 16.6 |------|[Google](https://drive.google.com/file/d/1zRW_BGLjztT3T6djr5FensXHawVGe9gB/view?usp=drive_link)|
-| **WalFusion*** | 26.7 | 25.1 | 25.9 | 24.3 | 12.7 | 70.0 | 73.5 | 47.22 | 16.6 |------|[Google](https://drive.google.com/file/d/1vB7V_Twe5Jd5P5mhHfCw_1K8boZM-zT5/view?usp=drive_link)|
+| **WalFusion** | 26.7 | 25.1 | 25.9 | 24.3 | 12.7 | 68.9 | 72.65 |[Google](https://drive.google.com/file/d/1zRW_BGLjztT3T6djr5FensXHawVGe9gB/view?usp=drive_link)|[Google](https://drive.google.com/file/d/1zRW_BGLjztT3T6djr5FensXHawVGe9gB/view?usp=drive_link)|
 
 📌 *Latency is measured on NVIDIA Orin-X.*
 
