@@ -69,6 +69,40 @@ WalFusion follows a **BEV-based fusion paradigm**:
 
 ---
 
+## Get Started
+
+#### Installation and Data Preparation
+
+step 1. Please prepare environment 
+
+step 2. Prepare bevdet repo by.
+```shell script
+git clone https://github.com/webyww/WalFusion.git
+cd BEVDet
+pip install -v -e .
+```
+
+step 3. Prepare nuScenes dataset as introduced in [nuscenes_det.md](docs/en/datasets/nuscenes_det.md) and create the pkl:
+```shell
+python tools/create_data_bevdet.py
+```
+step 4. 
+```shell script
+└── nuscenes
+    ├── v1.0-trainval (existing)
+    ├── sweeps  (existing)
+    ├── samples (existing)
+    └── gts (new)
+```
+
+#### Train model
+```shell
+# single gpu
+python tools/train.py $config
+# multiple gpu
+./tools/dist_train.sh $config num_gpu
+```
+
 ## 👀 Visualization
 
 Predicted results can be visualized **locally or remotely**.
