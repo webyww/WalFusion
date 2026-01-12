@@ -78,7 +78,7 @@ step 1. Please prepare environment
 step 2. Prepare bevdet repo by.
 ```shell script
 git clone https://github.com/webyww/WalFusion.git
-cd BEVDet
+cd WalFusion
 pip install -v -e .
 ```
 
